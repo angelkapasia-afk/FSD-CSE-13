@@ -26,6 +26,10 @@ const numberToWord = (num) => {
       return "Invalid Number";
   }
 };
+const numberToWord2= (digit)=> {
+    const words = ["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"];
+    return words[digit];
+}
 //console.log(numberToWord(5));
 /*create another fxn that takes a number and show in words with the help of towords fxn*/
 const rollNum ="2503201000192";
