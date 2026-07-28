@@ -11,10 +11,11 @@ const f3 =() =>{
 };
 const main =() =>{
     console.log ("main");
-    f1();
-    setTimeout(f2,5000);
-    f3();
-   
-    console.log("end");
+  f1();
+  // setTimeout(f2,5000);
+setInterval(f2,1000);
+  f3();
+
+  console.log("end");
 };
 main();
