@@ -13,7 +13,8 @@ interect directly with the client operating system rather than browser.
   - appendFile()
 - Directory management
   - mkdir()
-  - rmdir()
+  - rmdir()- depricated
+  - rm()
   - readdir()
 - Metadata/Information
   - stat()
